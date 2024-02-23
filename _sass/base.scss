@@ -1,0 +1,126 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+
+  position: relative;
+  margin: 0;
+}
+
+// html::before {
+//   background-color: rgba(255, 75, 5, 0.32);
+//   content: "";
+//   display: block;
+//   position: fixed;
+//   top: 0; left: 0;
+//   width: 50vw;
+//   height: 100%;
+//   z-index: -1;
+// }
+
+html::after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/seamus2024/assets/images/seamus2-min.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+
+  z-index: -1;
+  opacity: 0.35;
+}
+
+main {
+  // color: white;
+  font-family: "Lato";
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 50%;
+  // margin: 0 auto;
+  margin-top: 3em;
+  margin-left: 3em;
+  text-shadow:
+      1px 1px 0 rgba(255, 75, 5, 0.32),
+      -1px -1px 0 rgba(109, 200, 215, 0.46);
+  // background-color: rgba(255, 75, 5, 0.32);
+
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+h2:first-of-type {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Black Ops One";
+}
+
+.program_line {
+  margin-bottom: 0.75em;
+  margin-top: 2em;
+}
+
+.piece_details {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25em 0;
+
+
+  span {
+    display: block;
+    // background-color: white;
+  }
+
+  .composer {
+    text-align: right;
+  }
+}
+
+.instrumentation {
+  font-style: italic;
+  margin-top: 0;
+  text-align: center;
+}
+
+hr {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-top: 9px dashed #ff524094;
+  margin: 3em 0;
+}
+
+@media (max-width: 850px) {
+  html::after {
+    background-size: cover;
+  }
+  main {
+    font-size: 1.1rem;
+    width: 100vw;
+
+    margin: 0;
+    padding: 0.5em;
+  }
+
+  .piece_details {
+    gap: 0.3em;
+  }
+
+  .piece_title {
+    max-width: 50%;
+  }
+}
