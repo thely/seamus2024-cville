@@ -28,12 +28,17 @@ Violet Crown, Charlottesville, VA
 
 {% include program_line.html 
   title="Once Claimed Dominion"
-  composer="Gabrielle "
+  composer="Gabrielle Cerberville"
 %}
 
 {% include program_line.html 
   title="Paisajes Oníricos"
   composer="Matias Vilaplana Stark"
+%}
+
+{% include program_line.html 
+  title="Territorio Prismático"
+  composer="L2Ork Tweeter Community Ensemble"
 %}
 
 {% include program_line.html 
@@ -97,6 +102,15 @@ Agnes Martin was a well-known abstract painter who spent much of her later life 
 **Paisajes Oníricos/Dreamscapes** reflects on the traditional representation of graphic scores as drawings on a two- dimensional plane. The piece expands on this notion by allocating the graphical elements in a 3D virtual environment. These elements acquire volume and mass, in addition to the incorporation of a spatio-temporal dimension that is controlled by a virtual conductor. This is a solo rendering of the piece that uses a custom digital instrument built in Max/MSP to perform the piece.
 
 **Matias Vilaplana Stark** is a Chilean music technologist, composer, and improviser. He is currently a Ph.D. candidate in the Composition and Computer Technologies program at the University of Virginia. He holds a BFA from the Music Technology program at Universidad de Chile, and a MA in Media Arts from the University of Michigan. His research interests lie at the intersection of immersive media and musical practice, working on designing interactive music environments with motion capture systems, virtual reality, and the creation of 3D virtual environments as graphic scores for musical improvisation. In his music, field recordings, sound synthesis and samples from musical instruments are combined through different processing and editing techniques to blur the lines between real-world and abstract sounds to produce fictional soundscapes that cross over into the magical realm.
+
+### Territorio Prismático
+L2Ork Tweeter-based international community ensemble presents **Territorio Prismático** co-created telematic EDM work devised using L2Ork Tweeter software that allows for perfect sync among performers, regardless of their physical distance. Every facet of the ensuing theme and variations on the select excerpts from three EDM works is co-created by its ensemble members. The work will be premiered live with performers being over 5,000 miles apart. Territorio Prismático is inspired by the bass line of the "roygbiv" EDM song by the Boards of Canada.
+
+Named as one of the top six national transdisciplinary exemplars (a2ru, 2015), and one of the top eight research projects at Virginia Tech (DCist, 2014), a contemporary multimedia ensemble **Linux Laptop Orchestra** or **L2Ork** (pronounced as 'lohrk'), explores the collaborative nature of ensemble-based musicking through the use of innovative human-computer interaction technologies. L2Ork seeks integrative approach to arts, design, engineering, and science, and nurtures communities eager to explore the boundaries of music through technology.
+
+Founded by Dr. Ivica Ico Bukvic in May 2009, L2Ork is part of an interdisciplinary initiative by Virginia Tech College of Architecture, Arts, and Design, the School of Performing Arts and its DISIS Interactive Sound & Intermedia Studio (DISIS), and the Institute for Creativity, Arts, and Technology (ICAT). As the world’s first Linux-based laptop orchestra incorporating extensive study of gesture and Taiji (Tai Chi) choreography and other extended performance techniques L2Ork offers optimal infrastructure for creative research at minimal cost. By pursuing a seamless integration of arts, design, science, and engineering, it in part seeks to bridge the gap between STEM and the Arts, with particular focus on K-12 education.
+
+Since its inception, the initiative has helped start seven laptop orchestras in North and South Americas. L2Ork's infrastructural backbone Pd-L2Ork, a visual programming environment with its unique K-12 learning module has been utilized in dozens of K-12 Maker workshops, including the 2014 Raspberry Pi Orchestra summer gifted program, and the ongoing 13-year partnership with the Boys & Girls Club of SW VA. In 2020, the ensemble introduced L2Ork Tweeter, its new free and open-source online platform for collaborative instrument design, ideation, improvisation, composition, rehearsal, and performance, that has served as a foundation for an international L2Ork community ensemble. http://l2ork.music.vt.edu
 
 ### Ghost Stories
 
